@@ -1,0 +1,34 @@
+{
+  "name": "simple-user-center-server",
+  "version": "1.0.0",
+  "description": "simple user center server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Touna-App-Front-End/simple-user-center-server.git"
+  },
+  "keywords": [
+    "usercenter"
+  ],
+  "author": "SimMan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Touna-App-Front-End/simple-user-center-server/issues"
+  },
+  "homepage": "https://github.com/Touna-App-Front-End/simple-user-center-server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.2",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "key-del": "^1.2.4",
+    "moment": "^2.13.0",
+    "morgan": "^1.7.0",
+    "node-json-db": "^0.7.2",
+    "uuid": "^2.0.2"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "userList": {
+    "simman": {
+      "userId": "14f7f790-235b-11e6-937d-4dedfa2a318b",
+      "userName": "simman",
+      "userPwd": "123456",
+      "avatar": "https://randomuser.me/api/portraits/men/13.jpg"
+    }
+  },
+  "twitters": [{
+    "content": "你好, 😄!!!",
+    "createDate": "2016-05-27T01:05:19+08:00",
+    "auth": "simman",
+    "avatar": "https://randomuser.me/api/portraits/men/13.jpg",
+    "tid": "21e7a3de-08aa-4388-a6e4-908712f99cc0"
+  }, {
+    "content": "青楼满座，是因为人心寂寞。",
+    "createDate": "2016-05-27T01:05:22+08:00",
+    "auth": "simman",
+    "avatar": "https://randomuser.me/api/portraits/men/13.jpg",
+    "tid": "cde0983c-9bfa-48d3-b779-3b385e3fed94"
+  }, {
+    "content": "如果帅能像胖一样一发不可收拾该多好！",
+    "createDate": "2016-05-27T01:05:23+08:00",
+    "auth": "simman",
+    "avatar": "https://randomuser.me/api/portraits/men/13.jpg",
+    "tid": "881978b5-b4f3-45c5-b8f4-7c018f4c0f8a"
+  }, {
+    "content": "前三十年睡不醒，后三十年睡不着。",
+    "createDate": "2016-05-27T01:05:25+08:00",
+    "auth": "simman",
+    "avatar": "https://randomuser.me/api/portraits/men/13.jpg",
+    "tid": "749b11bc-f847-4138-9de1-f7875b55b53b"
+  }]
+}
