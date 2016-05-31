@@ -17,10 +17,13 @@ var cookieParser = require('cookie-parser');
 var deleteKey = require('key-del')
 var session = require('express-session')
 var moment = require('moment');
+var cors = require('cors');
 
 var app = express();
 var db = new JsonDB("db", true, false);
 
+// 引入 cors 解决跨域问题
+app.use(cors());
 app.use(morgan('combined'));
 app.use(cookieParser());
 app.use(bodyParser.json());
@@ -216,6 +219,6 @@ app.post('/putTwitter', function(req, res) {
   });
 });
 
-app.listen(3000, function() {
-  console.log('simple user center app listening on port 3000!');
+app.listen(8087, function() {
+  console.log('simple user center app listening on port 8087!');
 });
